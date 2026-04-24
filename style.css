@@ -1,0 +1,71 @@
+body {
+    background-color: LightSteelBlue; /* The Ocean */
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: GoldenRod; /* Pirate Gold */
+    color: White;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid Black;
+    text-shadow: 2px 2px Black;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: White;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: OrangeRed;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: White;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #333;
+    border-radius: 15px;
+    min-height: 500px;
+}
+
+.char-img {
+    float: left;
+    margin-right: 20px;
+    border: 8px solid #ddd;
+    border-radius: 10px;
+    max-width: 250px;
+}
+
+.info-box {
+    overflow: auto; /* Keeps the text next to the image */
+}
+
+h2 {
+    color: DarkRed;
+    border-bottom: 2px solid DarkRed;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.clear {
+    clear: both;
+}
